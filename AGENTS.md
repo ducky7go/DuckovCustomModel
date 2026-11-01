@@ -44,5 +44,4 @@
 
 - `DuckovCustomModel/Constant.cs` 里 `ModVersion = "1.10.0"`，`CHANGELOG.md` 首节也是 `v1.10.0`，但仓库 tag 已到 `v2.2.1`；`info.ini` 中没有 `version =` 行，而 `release.yml` 用 `-replace '^version = .*'` 改写它，对当前文件实际是空操作。改版本号前先确认意图。
 - 从 v1.10.0 起配置文件升级到 v2，许多旧 API 已标记过时（见 `docs/OBSOLETE_APIS_v1.10.0.md`）；新代码使用新 API。
-- 本仓库是浅克隆，只有 1 个提交，无法从历史核实更多提交习惯。
 - 贡献流程见 `CONTRIBUTING.md`，Issue/PR 模板在 `.github/`。
